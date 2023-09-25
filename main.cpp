@@ -1,5 +1,7 @@
 #include <iostream>
+#include <vector>
 #include "timer.h"
+
 
 int main(int argc, char** argv){
 
