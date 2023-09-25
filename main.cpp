@@ -4,11 +4,11 @@
 int main(int argc, char** argv){
 
 	{
-	Timer tm;
+		Timer<std::chrono::nanoseconds> tm;
 
-	for(int i=0; i<argc; ++i){
-		std::cout <<i<<":"<< argv[i] <<std::endl;
-	}
+		for(int i=0; i<argc; ++i){
+			std::cout <<i<<":"<< argv[i] <<std::endl;
+		}
 	}
 
 	return 0;
