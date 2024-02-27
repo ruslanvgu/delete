@@ -1,6 +1,8 @@
 #include <iostream>
+#include <vector>
 #include "timer.h"
 
+using namespace std;
 int main(int argc, char** argv){
 
 	{
